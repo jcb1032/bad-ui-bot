@@ -58,4 +58,4 @@ client.on("interactionCreate", interaction => {
     }
 })
 
-client.login("Nzk1Nzg5OTU0NDcwMTE3NDA2.X_OfJg.bO0Y7d1fa8mTjdLjDIQSGA-b7fc")
+client.login("")
