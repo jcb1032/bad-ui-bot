@@ -49,7 +49,7 @@ client.on("messageCreate", async msg => {
 client.on("interactionCreate", interaction => {
     if (interaction.isButton() && interaction.customId.startsWith("letter-")) {
         let letter = interaction.customId.split("-")[1]; // which letter was clicked
-        let isFirst = interaction.message.content.endsWith(":") // for adding a space after "your name:"
+        let isFirst = interaction.message.content.endsWith(":") // for adding a space after "enter your name:"
 
         /* edit the message */
         interaction.update({
